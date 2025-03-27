@@ -59,9 +59,14 @@ section{
     font-weight: 700;
 }
 
-.navbar a:hover,
+.navbar a:hover {
+    transform: translateY(-3px);
+    color: #007bff;
+  }
+
 .navbar a.active{
     color: var(--text-color);
+    /* color: red; */
 }
 
 #menu-icon {
